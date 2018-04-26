@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "san": "^3.5.7",
+    "style-loader": "^0.21.0",
+    "css-loader": "^0.28.11"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.2",
+    "babel-loader": "^7.1.4",
+    "babel-preset-latest": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "html-webpack-plugin": "^3.2.0",
+    "san-loader": "^0.0.7",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15",
+    "webpack-dev-server": "^3.1.3"
+  },
+  "name": "ife-mvvm-1.2",
+  "version": "1.0.0",
+  "description": "a study for IFE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "webpack --config webpack.config.js"
+  },
+  "author": "roytang",
+  "license": "ISC"
+}
